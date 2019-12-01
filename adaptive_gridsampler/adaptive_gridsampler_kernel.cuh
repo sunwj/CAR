@@ -1,8 +1,8 @@
 #ifndef ADAPTIVE_GRIDSAMPLER_KERNEL_CUH
 #define ADAPTIVE_GRIDSAMPLER_KERNEL_CUH
 
-#include <ATen/ATen.h>
+#include <torch/extension.h>
 
-void adaptive_gridsampler_kernel_forward(const at::Tensor& img, const at::Tensor& kernels, const at::Tensor& offsets_h, const at::Tensor& offsets_v, const int offset_unit, const int padding, at::Tensor& output);
+void adaptive_gridsampler_kernel_forward(const torch::Tensor& img, const torch::Tensor& kernels, const torch::Tensor& offsets_h, const torch::Tensor& offsets_v, const int offset_unit, const int padding, torch::Tensor& output);
 
 #endif

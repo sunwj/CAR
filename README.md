@@ -19,7 +19,7 @@ Currently, the code only supports python3 and machine with NVIDIA GPU (and the C
 
 * numpy
 * scipy
-* pytorch (== 1.1.0)
+* pytorch (== 1.3.1)
 * Pillow
 * tqdm
 
@@ -34,6 +34,19 @@ You can download the pre-trained models for 2x and 4x downscaling and super-reso
 ![](figs/qualitative.png)
 
 You can download HR images of benchmark datasets, i.e., the Set5, Set14, B100 and Urban100 from [here](https://mega.nz/#!znBRCSJA!_qwJMP5VDe3yleiK8m0QXrpHLee9AS8vzT03lAOorP0).
+
+If you find our work useful in your research or publication, please cite our work:
+
+Wanjie Sun, Zhenzhong Chen. **"Learned Image Downscaling for Upscaling using Content Adaptive Resampler"**. arXiv preprint arXiv:1907.12904, 2019.
+
+```
+@misc{1907.12904,
+Author = {Wanjie Sun and Zhenzhong Chen},
+Title = {Learned Image Downscaling for Upscaling using Content Adaptive Resampler},
+Year = {2019},
+Eprint = {arXiv:1907.12904}
+}
+```
 
 ## Acknowlegements
 EDSR code is provided by [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch).
