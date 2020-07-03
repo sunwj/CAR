@@ -40,11 +40,14 @@ If you find our work useful in your research or publication, please cite our wor
 Wanjie Sun, Zhenzhong Chen. **"Learned Image Downscaling for Upscaling using Content Adaptive Resampler"**. arXiv preprint arXiv:1907.12904, 2019.
 
 ```
-@misc{1907.12904,
-Author = {Wanjie Sun and Zhenzhong Chen},
-Title = {Learned Image Downscaling for Upscaling using Content Adaptive Resampler},
-Year = {2019},
-Eprint = {arXiv:1907.12904}
+@article{sun2020learned,
+  title={Learned image downscaling for upscaling using content adaptive resampler},
+  author={Sun, Wanjie and Chen, Zhenzhong},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={4027--4040},
+  year={2020},
+  publisher={IEEE}
 }
 ```
 
